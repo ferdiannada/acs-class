@@ -70,10 +70,10 @@
   </div>
 
   <div class="row">
-    <div class="col-lg-7 col-md-12 col-12 col-sm-12">
+    <div class="col-lg-8 col-md-12 col-12 col-sm-12">
       <div class="card">
         <div class="card-header">
-          <h4>Latest Posts</h4>
+          <h4>New Modul Updates</h4>
           <div class="card-header-action">
             <a href="#" class="btn btn-primary">View All</a>
           </div>
@@ -247,10 +247,10 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-6 col-md-6 col-12">
+    <div class="col-lg-12 col-md-6 col-12">
       <div class="card">
         <div class="card-header">
-          <h4>This Week Stats</h4>
+          <h4>This Week Deadline</h4>
           <div class="card-header-action">
             <div class="dropdown">
               <a href="#" class="dropdown-toggle btn btn-primary" data-toggle="dropdown">Filter</a>
