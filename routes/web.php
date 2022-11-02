@@ -32,3 +32,7 @@ Route::get('/tugas', function () {
 Route::get('/welcome', function () {
     return view('404');
 });
+
+// Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
