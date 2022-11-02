@@ -147,8 +147,7 @@
                             <div class="media-body">
                                 <div class="float-right text-primary">Now</div>
                                 <div class="media-title">Farhan A Mujib</div>
-                                <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel
-                                    metus scelerisque ante sollicitudin.</span>
+                                <span class="text-small text-muted">Telah Log Out.</span>
                             </div>
                         </li>
                         <li class="media">
@@ -157,8 +156,7 @@
                             <div class="media-body">
                                 <div class="float-right">12m</div>
                                 <div class="media-title">Ujang Maman</div>
-                                <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel
-                                    metus scelerisque ante sollicitudin.</span>
+                                <span class="text-small text-muted">Selesai upload tugas Setting Mikrotik.</span>
                             </div>
                         </li>
                         <li class="media">
@@ -167,20 +165,10 @@
                             <div class="media-body">
                                 <div class="float-right">17m</div>
                                 <div class="media-title">Rizal Fakhri</div>
-                                <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel
-                                    metus scelerisque ante sollicitudin.</span>
+                                <span class="text-small text-muted">Telah menyelesaikan materi Jaringan Dasar.</span>
                             </div>
                         </li>
-                        <li class="media">
-                            <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png"
-                                alt="avatar">
-                            <div class="media-body">
-                                <div class="float-right">21m</div>
-                                <div class="media-title">Alfa Zulkarnain</div>
-                                <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel
-                                    metus scelerisque ante sollicitudin.</span>
-                            </div>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -199,13 +187,13 @@
                 </div>
                 <div class="card-body">
                     <div class="summary">
-                        <div class="summary-info">
+                        {{-- <div class="summary-info">
                             <h4>$1,053</h4>
                             <div class="text-muted">Sold 3 items on 2 customers</div>
                             <div class="d-block mt-2">
                                 <a href="#">View All</a>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="summary-item">
                             <h6>Item List <span class="text-muted">(3 Items)</span></h6>
                             <ul class="list-unstyled list-unstyled-border">
@@ -216,10 +204,12 @@
                                     </a>
                                     <div class="media-body">
                                         <div class="buttons media-right">
-                                            <a href="#" class="btn btn-icon icon-left btn-primary btn-lg"><i class="fas fa-check"></i> Selesaikan</a>
+                                            <a href="#" class="btn btn-icon icon-left btn-primary btn-lg"><i
+                                                    class="fas fa-check"></i> Selesai</a>
                                         </div>
                                         {{-- <div class="media-right">$405</div> --}}
-                                        <div class="media-title"><a href="#">Dokumentasi Pembuatan Kabel LAN</a></div>
+                                        <div class="media-title"><a href="#">Dokumentasi Pembuatan Kabel LAN</a>
+                                        </div>
                                         <div class="text-muted text-small">by <a href="#">Moh Munir</a>
                                             <div class="bullet"></div> Sunday
                                         </div>
@@ -232,7 +222,8 @@
                                     </a>
                                     <div class="media-body">
                                         <div class="buttons media-right">
-                                            <a href="#" class="btn btn-icon icon-left btn-primary btn-lg"><i class="fas fa-check"></i> Selesaikan</a>
+                                            <a href="#" class="btn btn-icon icon-left btn-warning btn-lg"><i
+                                                    class="fas fa-exclamation-circle"></i> Selesaikan</a>
                                         </div>
                                         {{-- <div class="media-right">$499</div> --}}
                                         <div class="media-title"><a href="#">Setting Mikrotik</a></div>
@@ -248,7 +239,8 @@
                                     </a>
                                     <div class="media-body">
                                         <div class="buttons media-right">
-                                            <a href="#" class="btn btn-icon icon-left btn-primary btn-lg"><i class="fas fa-check"></i> Selesaikan</a>
+                                            <a href="#" class="btn btn-icon icon-left btn-primary btn-lg"><i
+                                                    class="fas fa-check"></i> Selesai</a>
                                         </div>
                                         {{-- <div class="media-right">$149</div> --}}
                                         <div class="media-title"><a href="#">Membuat Topologi Lokal</a></div>

@@ -25,9 +25,14 @@ Route::get('/materi', function () {
 })->name('materi')->middleware('auth');
 
 Route::get('/tugas', function () {
-    $title = "Materi";
+    $title = "Tugas";
     return view('tugas', ["title" => $title]);
 })->name('tugas')->middleware('auth');
+
+Route::get('/upload', function () {
+    $title = "Upload Tugas";
+    return view('upload', ["title" => $title]);
+})->name('upload')->middleware('auth');
 
 Route::get('/404', function () {
     return view('404');

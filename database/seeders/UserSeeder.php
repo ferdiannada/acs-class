@@ -15,35 +15,40 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        // User::create([
-        //     'name'      => 'siswa1',
-        //     'email'     => 'siswa1@acs.test',
-        //     'password'  => bcrypt('siswa123')
-        // ]);
-        // User::create([
-        //     'name'      => 'siswa2',
-        //     'email'     => 'siswa2@acs.test',
-        //     'password'  => bcrypt('siswa123')
-        // ]);
-        // User::create([
-        //     'name'      => 'siswa3',
-        //     'email'     => 'siswa3@acs.test',
-        //     'password'  => bcrypt('siswa123')
-        // ]);
-        // User::create([
-        //     'name'      => 'siswa4',
-        //     'email'     => 'siswa4@acs.test',
-        //     'password'  => bcrypt('siswa123')
-        // ]);
         User::create([
             'name'      => 'Alim Sujito',
-            'email'     => 'alim@acs.test',
+            'email'     => 'alim@acs.academy',
             'password'  => bcrypt('alim123')
         ]);
         User::create([
             'name'      => 'Moh Munir',
-            'email'     => 'mohmunir@acs.test',
+            'email'     => 'mohmunir@acs.academy',
             'password'  => bcrypt('mohmunir123')
+        ]);
+        User::create([
+            'name'      => 'Ferdian Nada',
+            'email'     => 'ferdi@acs.academy',
+            'password'  => bcrypt('ferdian123')
+        ]);
+        User::create([
+            'name'      => 'siswa1',
+            'email'     => 'siswa1@acs.academy',
+            'password'  => bcrypt('siswa123')
+        ]);
+        User::create([
+            'name'      => 'siswa2',
+            'email'     => 'siswa2@acs.academy',
+            'password'  => bcrypt('siswa123')
+        ]);
+        User::create([
+            'name'      => 'siswa3',
+            'email'     => 'siswa3@acs.academy',
+            'password'  => bcrypt('siswa123')
+        ]);
+        User::create([
+            'name'      => 'siswa4',
+            'email'     => 'siswa4@acs.academy',
+            'password'  => bcrypt('siswa123')
         ]);
     }
 }

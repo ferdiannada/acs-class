@@ -13,7 +13,7 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- CSS Libraries -->
-
+    <link rel="stylesheet" href="{{ asset('node_modules/dropzone/dist/min/dropzone.min.css') }}">
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/components.css') }}">
@@ -215,7 +215,7 @@
                         <li class="nav-item {{ $title == 'Materi' ? 'active' : '' }}"><a class="nav-link"
                                 href="{{ route('materi') }}"><i class="fas fa-book"></i>
                                 <span>Materi</span></a></li>
-                        <li class="nav-item {{ $title == 'Tugas' ? 'active' : '' }}"><a class="nav-link"
+                        <li class="nav-item {{ $title == 'Tugas' || $title == 'Upload Tugas' ? 'active' : '' }}"><a class="nav-link"
                                 href="{{ route('tugas') }}"><i class="fas fa-tasks"></i>
                                 <span>Tugas</span></a></li>
                     </ul>
@@ -246,7 +246,7 @@
                         TECHNOLOGY</a>
                 </div>
                 <div class="footer-right">
-                    2.3.0
+                    v0.1 Beta
                 </div>
             </footer>
         </div>
@@ -265,12 +265,14 @@
     <script src="{{ asset('assets/js/stisla.js') }}"></script>
 
     <!-- JS Libraies -->
+    <script src="{{ asset('node_modules/dropzone/dist/min/dropzone.min.js') }}"></script>
 
     <!-- Template JS File -->
     <script src="{{ asset('assets/js/scripts.js') }}"></script>
     <script src="{{ asset('assets/js/custom.js') }}"></script>
 
     <!-- Page Specific JS File -->
+    <script src="{{ asset('assets/js/page/components-multiple-upload.js') }}"></script>
 </body>
 
 </html>
