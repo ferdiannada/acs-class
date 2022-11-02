@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('layouts.master')
 
 @section('main-content')
     <h2 class="section-title">Materi</h2>

@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-$title = "Dashboard";
+    $title = "Dashboard";
     return view('dashboard', ["title" => $title]);
-})->name('dashboard');
+})->name('dashboard')->middleware('auth');
 
 Route::get('/materi', function () {
     $title = "Materi";
@@ -30,5 +30,9 @@ Route::get('/tugas', function () {
 })->name('tugas');
 
 Route::get('/welcome', function () {
-    return view('welcome');
+    return view('404');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
