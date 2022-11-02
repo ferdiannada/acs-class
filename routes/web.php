@@ -22,16 +22,18 @@ Route::get('/', function () {
 Route::get('/materi', function () {
     $title = "Materi";
     return view('materi', ["title" => $title]);
-})->name('materi');
+})->name('materi')->middleware('auth');
 
 Route::get('/tugas', function () {
     $title = "Materi";
     return view('tugas', ["title" => $title]);
-})->name('tugas');
+})->name('tugas')->middleware('auth');
 
-Route::get('/welcome', function () {
+Route::get('/404', function () {
     return view('404');
 });
 
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::fallback(function () {
+    return redirect('/404');
+});
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
