@@ -15,10 +15,35 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
+        // User::create([
+        //     'name'      => 'siswa1',
+        //     'email'     => 'siswa1@acs.test',
+        //     'password'  => bcrypt('siswa123')
+        // ]);
+        // User::create([
+        //     'name'      => 'siswa2',
+        //     'email'     => 'siswa2@acs.test',
+        //     'password'  => bcrypt('siswa123')
+        // ]);
+        // User::create([
+        //     'name'      => 'siswa3',
+        //     'email'     => 'siswa3@acs.test',
+        //     'password'  => bcrypt('siswa123')
+        // ]);
+        // User::create([
+        //     'name'      => 'siswa4',
+        //     'email'     => 'siswa4@acs.test',
+        //     'password'  => bcrypt('siswa123')
+        // ]);
         User::create([
-            'name'      => 'nada',
-            'email'     => 'ferdi@siswa.test',
-            'password'  => bcrypt('redusk98')
+            'name'      => 'Alim Sujito',
+            'email'     => 'alim@acs.test',
+            'password'  => bcrypt('alim123')
+        ]);
+        User::create([
+            'name'      => 'Moh Munir',
+            'email'     => 'mohmunir@acs.test',
+            'password'  => bcrypt('mohmunir123')
         ]);
     }
 }
