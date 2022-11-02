@@ -85,9 +85,9 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        Laravel 5 Tutorial - Migration
+                                        Pengenalan Jaringan Dasar
                                         <div class="table-links">
-                                            in <a href="#">Web Development</a>
+                                            in <a href="#">Network Class</a>
                                             <div class="bullet"></div>
                                             <a href="#">View</a>
                                         </div>
@@ -100,9 +100,9 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        Laravel 5 Tutorial - Deploy
+                                        Topologi Jaringan
                                         <div class="table-links">
-                                            in <a href="#">Web Development</a>
+                                            in <a href="#">Network Class</a>
                                             <div class="bullet"></div>
                                             <a href="#">View</a>
                                         </div>
@@ -115,9 +115,9 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        Laravel 5 Tutorial - Closing
+                                        Konfigurasi Mikrotik
                                         <div class="table-links">
-                                            in <a href="#">Web Development</a>
+                                            in <a href="#">Network Class</a>
                                             <div class="bullet"></div>
                                             <a href="#">View</a>
                                         </div>
@@ -212,12 +212,15 @@
                                 <li class="media">
                                     <a href="#">
                                         <img class="mr-3 rounded" width="50"
-                                            src="../assets/img/products/product-1-50.png" alt="product">
+                                            src="../assets/img/products/product-4-50.png" alt="product">
                                     </a>
                                     <div class="media-body">
-                                        <div class="media-right">$405</div>
-                                        <div class="media-title"><a href="#">PlayStation 9</a></div>
-                                        <div class="text-muted text-small">by <a href="#">Hasan Basri</a>
+                                        <div class="buttons media-right">
+                                            <a href="#" class="btn btn-icon icon-left btn-primary btn-lg"><i class="fas fa-check"></i> Selesaikan</a>
+                                        </div>
+                                        {{-- <div class="media-right">$405</div> --}}
+                                        <div class="media-title"><a href="#">Dokumentasi Pembuatan Kabel LAN</a></div>
+                                        <div class="text-muted text-small">by <a href="#">Moh Munir</a>
                                             <div class="bullet"></div> Sunday
                                         </div>
                                     </div>
@@ -225,12 +228,15 @@
                                 <li class="media">
                                     <a href="#">
                                         <img class="mr-3 rounded" width="50"
-                                            src="../assets/img/products/product-2-50.png" alt="product">
+                                            src="../assets/img/products/product-4-50.png" alt="product">
                                     </a>
                                     <div class="media-body">
-                                        <div class="media-right">$499</div>
-                                        <div class="media-title"><a href="#">RocketZ</a></div>
-                                        <div class="text-muted text-small">by <a href="#">Hasan Basri</a>
+                                        <div class="buttons media-right">
+                                            <a href="#" class="btn btn-icon icon-left btn-primary btn-lg"><i class="fas fa-check"></i> Selesaikan</a>
+                                        </div>
+                                        {{-- <div class="media-right">$499</div> --}}
+                                        <div class="media-title"><a href="#">Setting Mikrotik</a></div>
+                                        <div class="text-muted text-small">by <a href="#">Alim Sujito</a>
                                             <div class="bullet"></div> Sunday
                                         </div>
                                     </div>
@@ -238,12 +244,15 @@
                                 <li class="media">
                                     <a href="#">
                                         <img class="mr-3 rounded" width="50"
-                                            src="../assets/img/products/product-3-50.png" alt="product">
+                                            src="../assets/img/products/product-4-50.png" alt="product">
                                     </a>
                                     <div class="media-body">
-                                        <div class="media-right">$149</div>
-                                        <div class="media-title"><a href="#">Xiaomay Readme 4.0</a></div>
-                                        <div class="text-muted text-small">by <a href="#">Kusnaedi</a>
+                                        <div class="buttons media-right">
+                                            <a href="#" class="btn btn-icon icon-left btn-primary btn-lg"><i class="fas fa-check"></i> Selesaikan</a>
+                                        </div>
+                                        {{-- <div class="media-right">$149</div> --}}
+                                        <div class="media-title"><a href="#">Membuat Topologi Lokal</a></div>
+                                        <div class="text-muted text-small">by <a href="#">Zainul Arifin</a>
                                             <div class="bullet"></div> Tuesday
                                         </div>
                                     </div>
