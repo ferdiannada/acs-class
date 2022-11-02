@@ -28,3 +28,7 @@ Route::get('/tugas', function () {
     $title = "Materi";
     return view('tugas', ["title" => $title]);
 })->name('tugas');
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
