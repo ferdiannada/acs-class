@@ -1,5 +1,6 @@
 <?php
 
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
-});
+$title = "Dashboard";
+    return view('dashboard', ["title" => $title]);
+})->name('dashboard');
+
+Route::get('/materi', function () {
+    $title = "Materi";
+    return view('materi', ["title" => $title]);
+})->name('materi');
+
+Route::get('/tugas', function () {
+    $title = "Materi";
+    return view('tugas', ["title" => $title]);
+})->name('tugas');
